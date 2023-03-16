@@ -6,18 +6,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-
-        <p>
-          My Form
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <form>
+            <input type="file" name="myImage" accept=".png" />
+            <input type="text" name="name" />
+            <input type="submit" />
+        </form>
       </header>
     </div>
   );
